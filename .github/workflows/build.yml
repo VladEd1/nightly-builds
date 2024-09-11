@@ -12,7 +12,7 @@ jobs:
   build-image:
     strategy:
       matrix:
-        version: ["next"]
+        version: ["next", "next-new-sm7150"]
 
     runs-on: ubuntu-latest
     steps:
